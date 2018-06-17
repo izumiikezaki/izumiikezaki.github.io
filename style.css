@@ -6,7 +6,7 @@
 img{border:0;}
 body{
 	font-family: 'Roboto', sans-serif;
-	font: size 1vmin;
+	font-size:1.2rem;
 }
 h1{
 	font-size: 8vh;
@@ -136,7 +136,7 @@ iframe{
 	float:left;
 	display: box;
 	margin:9% auto;
-	font-size: 0.9rem;
+	font-size: 1.rem;
 	text-align:center; 
 	
 }
