@@ -53,6 +53,7 @@ iframe{
 	float: left;
 	box-shadow: 0 2px 10px rgba(0,0,0,.2);
 
+	/*文字の縦横中央揃え*/
 	display: flex;
     justify-content: center;
     align-items: center;
