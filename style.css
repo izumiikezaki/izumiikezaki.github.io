@@ -128,21 +128,28 @@ iframe{
 	
 	overflow:hidden;
 }
-#iconbox{
+#iconboxBack{
 	width:100%;
-	height:100%;
+	height:80%;
 	margin:0 -5%;
 	padding:0 5%;
 	background:#424242;
 	display:box;
+}
+#iconbox{
+	width:100%;
+	height:100%;
+
+	display: flex;
+	align-items:space-around;
 }
 #iconbox li{
 	list-style: none;
 	width:50%;
 	height:50%;
 	float:left;
-	display: box;
-	margin:9% auto;
+	display: block;
+	margin:auto;
 	font-size: 1.1rem;
 	text-align:center; 
 	
@@ -155,7 +162,7 @@ iframe{
 .MyIconSize{
 	font-size: 3rem;
 	display:box;
-	margin:auto;
+	margin:3% auto;
 }
 #Extra{
 	width: 46%;
