@@ -101,6 +101,7 @@ iframe{
 	animation-fill-mode:forwards;
 }
 #AboutMe img{
+	position: relative;
 	width:104%;
 	margin:-2% -2% -2%;
 	transition-duration: 0.3s;/*変化に掛かる時間*/
