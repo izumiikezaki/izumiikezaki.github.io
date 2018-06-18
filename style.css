@@ -85,21 +85,48 @@ iframe{
 	margin:1%;
 	background:#1976D2;
 	color: rgb(255,255,255);
+	overflow: hidden;
+	position: relative;
+	/*
 	background-image: url("image/aboutme.png");
-	background-size: cover;	
+	background-size: cover;
+	:/	
 	
 	/*アニメーションプロパティ*/
 	opacity:0;
 	animation-name:fadeIn;
 	animation-duration:1s;
-	animation-timing-function: ease-out;
+	animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	animation-delay:0s;
 	animation-fill-mode:forwards;
 }
+#AboutMe img{
+	width:104%;
+	margin:-2% -2% -2%;
+	transition-duration: 0.3s;/*変化に掛かる時間*/
+	transition-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+#AboutMe:hover > img{
+	transform: scale(1.2);
+	padding-right:100%;
+	transition-duration: 0.3s;
+	transition-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+#AboutMe h2{
+	position: absolute;
+	left:0;
+	z-index:100;
+}
 #AboutMe p{
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translateY(-50%) translateX(-50%);
 	color: #FFF;
 	text-align: center;
 	text-shadow: 0 2px 5px rgba(0,0,0,0.26);
+	z-index:100;
 }
 
 #blank{
@@ -116,7 +143,7 @@ iframe{
 	opacity:0;
 	animation-name:fadeIn;
 	animation-duration:1s;
-	animation-timing-function:ease-out;
+	animation-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	animation-delay:100ms;
 	animation-fill-mode:forwards;
 }
@@ -135,7 +162,7 @@ iframe{
 	opacity:0;
 	animation-name:fadeIn;
 	animation-duration:1s;
-	animation-timing-function: ease-out;
+	animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	animation-delay:200ms;
 	animation-fill-mode:forwards;
 }
@@ -155,7 +182,7 @@ iframe{
 	opacity:0;
 	animation-name:fadeIn;
 	animation-duration:1s;
-	animation-timing-function: ease-out;
+	animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	animation-delay:300ms;
 	animation-fill-mode:forwards;
 }
@@ -216,7 +243,7 @@ iframe{
 	opacity:0;
 	animation-name:fadeIn;
 	animation-duration:1s;
-	animation-timing-function: ease-out;
+	animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	animation-delay:400ms;
 	animation-fill-mode:forwards;
 }
