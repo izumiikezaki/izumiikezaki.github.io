@@ -87,6 +87,14 @@ iframe{
 	color: rgb(255,255,255);
 	background-image: url("image/aboutme.png");
 	background-size: cover;	
+	
+	/*アニメーションプロパティ*/
+	opacity:0;
+	animation-name:fadeIn;
+	animation-duration:1s;
+	animation-timing-function: ease-out;
+	animation-delay:0s;
+	animation-fill-mode:forwards;
 }
 #AboutMe p{
 	color: #FFF;
@@ -104,6 +112,13 @@ iframe{
 	background:#7986CB;
 	color: rgb(255,255,255);
 	
+	/*アニメーションプロパティ*/
+	opacity:0;
+	animation-name:fadeIn;
+	animation-duration:1s;
+	animation-timing-function:ease-out;
+	animation-delay:100ms;
+	animation-fill-mode:forwards;
 }
 
 #News{
@@ -115,6 +130,14 @@ iframe{
 	margin:1%;
 	background:#FAFAFA;
 	color:#424242;
+
+	/*アニメーションプロパティ*/
+	opacity:0;
+	animation-name:fadeIn;
+	animation-duration:1s;
+	animation-timing-function: ease-out;
+	animation-delay:200ms;
+	animation-fill-mode:forwards;
 }
 
 #Links{
@@ -128,6 +151,13 @@ iframe{
 	color:#424242;
 	
 	overflow:hidden;
+	/*アニメーションプロパティ*/
+	opacity:0;
+	animation-name:fadeIn;
+	animation-duration:1s;
+	animation-timing-function: ease-out;
+	animation-delay:300ms;
+	animation-fill-mode:forwards;
 }
 #iconboxBack{
 	width:100%;
@@ -182,6 +212,13 @@ iframe{
 	margin:1%;
 	background:#303F9F;
 	color: rgb(255,255,255);
+	/*アニメーションプロパティ*/
+	opacity:0;
+	animation-name:fadeIn;
+	animation-duration:1s;
+	animation-timing-function: ease-out;
+	animation-delay:400ms;
+	animation-fill-mode:forwards;
 }
 #Detail1{
 	width:50vmin;/*だいたいフルHDで500pxくらい50vmin*/
@@ -199,4 +236,15 @@ iframe{
 
 	text-align: center;
 	
+}
+
+@keyframes fadeIn{
+	0%{
+		opacity:0;
+		margin-top:100%;
+	}
+	100%{
+		opacity:1;
+		margin-top:1%;
+	}
 }
