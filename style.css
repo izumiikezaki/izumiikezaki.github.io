@@ -130,7 +130,7 @@ iframe{
 }
 #iconboxBack{
 	width:100%;
-	height:80%;
+	height:100%;
 	margin:0 -5%;
 	padding:0 5%;
 	background:#424242;
@@ -138,20 +138,28 @@ iframe{
 }
 #iconbox{
 	width:100%;
-	height:100%;
-
+	height:80%;
+	
 	display: flex;
 	align-items:space-around;
+}
+#iconbox ul{
+	width:100%;
 }
 #iconbox li{
 	list-style: none;
 	width:50%;
 	height:50%;
 	float:left;
-	display: block;
+	/*display: block;*/
 	margin:auto;
-	font-size: 1.1rem;
+	font-size: 0.9rem;
 	text-align:center; 
+
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
 	
 }
 #iconbox li a{
