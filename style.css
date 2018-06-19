@@ -34,10 +34,12 @@ iframe{
 }
 #Contents{
 	width: 100vw;
+	min-width:500px;
 	height:100vh;
+	min-height:500px;
 	margin:0;
 	background:rgb(210,210,210);
-	overflow:hidden;
+	/*overflow:hidden;*/
 	/*background-image: url("test2.jpg");
 	background-size: cover;*/
 	background-color   : #F5F5F5;
@@ -48,6 +50,7 @@ iframe{
 }
 #Header{
 	width: 100vw;
+	min-width:500px;
 	height:10vh;
 	margin:0;
 	background:#263238;
@@ -73,7 +76,7 @@ iframe{
 	color: rgb(255,255,255);
 }
 .BoxItem{
-	box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+	box-shadow: 0 2px 3px rgba(0,0,0,0.26);
 	border-radius:3px;
 
 	/*アニメーションカクツキ対策用*/
@@ -195,7 +198,7 @@ iframe{
 	height:100%;
 	margin:0 -5%;
 	padding:0 5%;
-	background:#424242;
+	background:#263238;
 	display:box;
 }
 #iconbox{
@@ -225,7 +228,7 @@ iframe{
 #iconbox li a{
 	color:#FFF59D;
 	text-decoration: none;
-	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
 
 	transition-duration: 0.3s;/*変化に掛かる時間*/
 	transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
