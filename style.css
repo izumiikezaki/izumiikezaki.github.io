@@ -108,13 +108,13 @@ iframe{
 	width:104%;
 	margin:-2% -2% -2%;
 	transition-duration: 0.3s;/*変化に掛かる時間*/
-	transition-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	transition-timing-function:linear;
 }
 #AboutMe:hover > img{
 	transform: scale(1.2);
 	padding-right:100%;
 	transition-duration: 0.3s;
-	transition-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	transition-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 #AboutMe h2{
@@ -221,13 +221,19 @@ iframe{
 	display: flex;
   	justify-content: center;
   	align-items: center;
-
-	
 }
 #iconbox li a{
 	color:#FFF59D;
 	text-decoration: none;
 	text-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+
+	transition-duration: 0.3s;/*変化に掛かる時間*/
+	transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+#iconbox li a:hover{
+	transform: scale(1.2);
+	transition-duration: 0.3s;
+	transition-timing-function:ccubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 .MyIconSize{
 	font-size: 3rem;
