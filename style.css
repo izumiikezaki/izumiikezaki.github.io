@@ -55,7 +55,7 @@ iframe{
 	margin:0;
 	background:#263238;
 	float: left;
-	box-shadow: 0 2px 10px rgba(0,0,0,.2);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.4);
 
 	/*文字の縦横中央揃え*/
 	display: flex;
@@ -76,7 +76,7 @@ iframe{
 	color: rgb(255,255,255);
 }
 .BoxItem{
-	box-shadow: 0 2px 3px rgba(0,0,0,0.26);
+	box-shadow: 0 2px 1px rgba(0,0,0,0.4);
 	border-radius:3px;
 
 	/*アニメーションカクツキ対策用*/
@@ -151,7 +151,7 @@ iframe{
 	animation-name:fadeIn;
 	animation-duration:1s;
 	animation-timing-function:cubic-bezier(0.785, 0.135, 0.15, 0.86);
-	animation-delay:100ms;
+	animation-delay:0.1s;
 	animation-fill-mode:forwards;
 }
 
@@ -170,7 +170,7 @@ iframe{
 	animation-name:fadeIn;
 	animation-duration:1s;
 	animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-	animation-delay:200ms;
+	animation-delay:0s;
 	animation-fill-mode:forwards;
 }
 
@@ -190,7 +190,7 @@ iframe{
 	animation-name:fadeIn;
 	animation-duration:1s;
 	animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-	animation-delay:300ms;
+	animation-delay:0.4s;
 	animation-fill-mode:forwards;
 }
 #iconboxBack{
@@ -257,7 +257,7 @@ iframe{
 	animation-name:fadeIn;
 	animation-duration:1s;
 	animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
-	animation-delay:400ms;
+	animation-delay:0.5s;
 	animation-fill-mode:forwards;
 }
 #Detail1{
