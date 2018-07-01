@@ -77,7 +77,7 @@ iframe{
 }
 .BoxItem{
 	box-shadow: 0 2px 1px rgba(0,0,0,0.4);
-	border-radius:3px;
+	/*border-radius:3px;*/
 
 	/*アニメーションカクツキ対策用*/
 	transform: translate3d(0,0,0);
