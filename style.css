@@ -203,14 +203,15 @@ iframe{
 }
 #iconbox{
 	width:100%;
-	height:80%;
-	
+	height:28.5vmin;
+	min-height:142.5px;/*最短幅500pxで止まるため500pxの0.285倍*/
 	display: flex;
+	justify-content: space-around;
 	align-items:space-around;
+	
+	
 }
-#iconbox ul{
-	width:100%;
-}
+
 #iconbox li{
 	list-style: none;
 	width:50%;
@@ -220,7 +221,7 @@ iframe{
 	margin:auto;
 	font-size: 0.9rem;
 	text-align:center; 
-
+	
 	display: flex;
   	justify-content: center;
   	align-items: center;
@@ -233,6 +234,18 @@ iframe{
 	transition-duration: 0.3s;/*変化に掛かる時間*/
 	transition-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+#iconbox li a i{
+	display: block;
+}
+
+/*
+@media screen and (max-width:720px ) { 
+	#iconbox li a span{
+		display: none;
+	}
+}
+*/
+
 #iconbox li a:hover{
 	transform: scale(1.2);
 	transition-duration: 0.3s;
