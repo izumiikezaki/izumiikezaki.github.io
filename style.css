@@ -204,7 +204,7 @@ iframe{
 #iconbox{
 	width:100%;
 	height:28.5vmin;
-	min-height:142.5px;/*最短幅500pxで止まるため500pxの0.285倍*/
+	min-height:160px;
 	display: flex;
 	justify-content: space-around;
 	align-items:space-around;
@@ -238,13 +238,13 @@ iframe{
 	display: block;
 }
 
-/*
-@media screen and (max-width:720px ) { 
+
+@media screen and (max-width:550px ) { 
 	#iconbox li a span{
 		display: none;
 	}
 }
-*/
+
 
 #iconbox li a:hover{
 	transform: scale(1.2);
